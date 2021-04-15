@@ -1,4 +1,4 @@
-package com.group2.metadataserver;
+package com.group2.metadataserver.server;
 
 public class MetadataNotFoundException extends RuntimeException {
     MetadataNotFoundException(Long id) {

@@ -1,4 +1,4 @@
-package com.group2.metadataserver;
+package com.group2.metadataserver.model;
 
 import java.util.Objects;
 
