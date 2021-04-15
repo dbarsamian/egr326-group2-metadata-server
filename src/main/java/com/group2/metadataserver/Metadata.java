@@ -33,6 +33,14 @@ public class Metadata {
     private String fileName;
     private Long fileSizeInKb;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     Metadata(String fileName, Long fileSizeInKb) {
         this.fileName = fileName;
         this.fileSizeInKb = fileSizeInKb;
